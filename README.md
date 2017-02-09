@@ -3,7 +3,7 @@
 ## このリポジトリについて
 
 - このリポジトリはこれからWebサイトのフロントエンド開発を学ぶ人のためのカリキュラムです。
-- このリポジトリをご自身のGithubアカウントにfolkして、<a href="https://github.com/es335ab/practice-front-end/blob/master/README.md">COURSE.md</a>に沿ってご自身のリポジトリで勉強を進めてください。
+- このリポジトリをご自身のGithubアカウントにfolkして、<a href="https://github.com/es335ab/practice-front-end/blob/master/COURSE.md">COURSE.md</a>に沿ってご自身のリポジトリで勉強を進めてください。
 - このカリキュラムを終えればモダンなWebサイトのフロントエンド開発ができるようになります。（複雑なWebアプリケーションの開発は対象外
 
 ## カリキュラムをすすめるのに必要なもの
