@@ -54,9 +54,27 @@
 
 以上
 
-### 4.ヘッダー以外ののcssをscssで書く
+### 5.ヘッダー部分、およびヘッダー以外の部分をSMACSSに適応する
 
-### 5.ヘッダー以外ののcssをscssで書く
+目的：SMACSSおよびSMACSS必要性の理解
+
+1. 今回作業用にGitのブランチを切る。
+ - git checkout master
+ - git fetch
+ - git pull origin master
+ - git checkout -b feature/adjust_smacss
+2. SMACSSについて講師のレクチャを受ける
+3. `source/layouts/layout.haml`のヘッダー部分クラス名、および`source/stylesheets/site.css.scss`のクラス名をSMACSS対応する
+ - ヘッダーのcss記述は`source/stylesheets/layouts/header.css.scss`に分割する
+ - ヘッダーのhamlは`source/layouts/partials/header.haml`に分割する
+4. remoteにpushしてmasterブランチに対してプルリクエストをする
+5. 講師の確認をもらい、masterブランチに今回の作業をマージする
+6. 引き続き同じブランチで、ヘッダー以外のパーツを分割し、SMACSS対応し、プルリクエストする
+7. 講師の確認をもらい、masterブランチに今回の作業をマージする
+
+以上
+
+### 5.ヘッダー以外ののscssをSMACSSに沿って書く
 
 ### 6. jsで、、
 
