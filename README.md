@@ -3,13 +3,15 @@
 ## このリポジトリについて
 
 - このリポジトリはこれからWebサイトのフロントエンド開発を学ぶ人のためのカリキュラムです。
-- このリポジトリをご自身のGithubアカウントにfolkして、READMEに沿ってご自身のリポジトリで勉強を進めてください。
-- このカリキュラムを終えればモダンなWebサイトのフロントエンド開発ができるようになります。
+- このリポジトリをご自身のGithubアカウントにfolkして、<a href="https://github.com/es335ab/practice-front-end/blob/master/README.md">COURSE.md</a>に沿ってご自身のリポジトリで勉強を進めてください。
+- このカリキュラムを終えればモダンなWebサイトのフロントエンド開発ができるようになります。（複雑なWebアプリケーションの開発は対象外
 
 ## カリキュラムをすすめるのに必要なもの
 
 - Mac
-- Git
+- Homebrew（Mac用のパッケージ管理ツール）
+- Xcode（MacのIDE）
+- Git（ソースコードのバージョン管理ツール）
 - Githubのアカウント
 - ruby 2.3.1
  - <a href="http://dev.classmethod.jp/server-side/language/build-ruby-environment-by-rbenv/">ruby 2.3.1 を入れるための参考ページ</a>
