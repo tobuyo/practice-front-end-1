@@ -9,7 +9,7 @@
 ## カリキュラムをすすめるのに必要なもの
 
 - Mac
-- Homebrew（Mac用のパッケージ管理ツール）
+- Homebrew（Mac用のパッ ケージ管理ツール）
 - Xcode（MacのIDE）
 - Git（ソースコードのバージョン管理ツール）
 - Githubのアカウント
