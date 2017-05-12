@@ -1,88 +1,111 @@
 <!DOCTYPE html>
-<html lang="en-US" class="js">
+<html lang="en-US">
 
 	<head>
 		<meta charset="UTF-8" />
 		<title>Tatami pakuri</title>
 	</head>
 
-	<body class="home blog custom-background" id="menu">
-		<header id="site-header" role="banner">
-			<hgroup class="site-title">
-					<h1 class="title">
-					<a href="http://themes.elmastudio.de/tatami/" title="Tatami" rel="home">Tatami</a></h1>
-					<h2 class="description">
-					</h2>
+	<body>
+		<header id="body-header">
+			<hgroup class="body-header-title">
+				<h1 class="title"><a href="http://themes.elmastudio.de/tatami/" title="Tatami">Tatami</a></h1>
+				<h2 class="description">H2のサンプルテキスト</h2>
 			</hgroup>
 		</header>
 		
 		<div class="container">
 		
-			<section class="sidebar-left" role="navigation">
+			<section class="sidebar-left"><!-- 左側のサイドバーについて記述　-->
 				<nav class="main-nav">
 					<form method="get" id="searchform" action="http://themes.elmastudio.de/tatami/">
-						<input type="text" class="field" name="s" id="s" placeholder="Search ...">
-						<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search">
+						<input type="text" class="field" placeholder="検索ワードを入力">
+						<input type="submit" class="submit" value="Search">
 					</form>
-					<div class="menu-main-menu-container">
-						<ul id="menu-main-menu" class="menu">
-							<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23">
+					<div class="sidebar-left-menu">
+						<ul id="sidebar-left-menu-ul">
+							<li id="leftmenu-1">
 							<a href="http://themes.elmastudio.de/tatami/shortcodes/">Shortcodes</a>
 							</li>
-							<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="http://themes.elmastudio.de/tatami/sample-page/">Sample Page 1</a>
-								<ul class="sub-menu">
-									<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://themes.elmastudio.de/tatami/child-page-1/">Child Page One</a></li>
-									<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://themes.elmastudio.de/tatami/child-page-2/">Child Page Two</a></li>
+							<li id="leftmenu-2">
+							<a href="http://themes.elmastudio.de/tatami/sample-page/">Sample Page 1</a>
+								<ul class="leftmenu-2-sub">
+									<li id="menu-sub">
+									<a href="http://themes.elmastudio.de/tatami/child-page-1/">子ページ１</a></li>
+									<li id="menu-sub">
+									<a href="http://themes.elmastudio.de/tatami/child-page-2/">子ページ２</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a href="http://themes.elmastudio.de/tatami/sample-page-two/">Sample Page 2</a></li>
-							<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://themes.elmastudio.de/tatami/archive/">Archives</a></li>
-							<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://themes.elmastudio.de/tatami/contact/">Contact Us</a></li>
+							<li id="leftmenu-3">
+							<a href="http://themes.elmastudio.de/tatami/sample-page-two/">Sample Page 2</a></li>
+							<li id="leftmenu-4">
+							<a href="http://themes.elmastudio.de/tatami/archive/">Archives</a></li>
+							<li id="leftmenu-5><a href="http://themes.elmastudio.de/tatami/contact/">Contact Us</a></li>
 							</ul>
 					</div>
 				</nav>
 
-			</section>
-	
-			<nav class="off-canvas-nav">
-				<ul>
-					<li class="menu-item">
-						<a class="menu-button" href="#menu" title="Menu">Menu</a>
-					</li>
-					<li class="sidebar-item">
-						<a class="sidebar-button" href="#sidebar" title="Sidebar">Sidebar</a>
-					</li>
-				</ul>
-			</nav>
-
-			<sectiion role="main"　class="content-wrap">
-				<div id="content">
-					<article ie=""></article>
-					<article ie=""></article>
-					<article ie=""></article>
-					<article ie=""></article>
-					<article ie=""></article>
-				</div>
-				<nav id="nav-below" class="clearfix">
-					<div class="nav-previous">
+				<aside id="tatami-textwidget"><h3 class="widget-title">Text Widget</h3>	
+					<div class="textwidget">Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit. 
 					</div>
-					<div class="nav-next">
+				</aside>
+
+			</section>
+
+			<sectiion class="main-center">
+				<div id="content">
+					<article id="post-1" class="post">
+						<div class="post-entry">content</div>
+						<footer class="post-footer"></footer>
+					</article>
+					<article id="post-2" class="post">
+						<div class="post-entry">content</div>
+						<footer class="post-footer"></footer>
+					</article>
+					<article id="post-3" class="post">
+						<div class="post-entry">content</div>
+						<footer class="post-footer"></footer>
+					</article>
+					<article id="post-4" class="post">
+						<div class="post-entry">content</div>
+						<footer class="post-footer"></footer>
+					</article>
+					<article id="post-5" class="post">
+						<div class="post-entry">content</div>
+						<footer class="post-footer"></footer>
+					</article>
+				</div>
+				<nav id="nav-center-below">
+					<div class="article-previous">
+					</div>
+					<div class="article-next">
 					</div>
 				</nav>
-				<footer class="sitefooter" role="contentinfo">
-					<div class="footwidgets clearfix">
+				<footer class="sitefooter">
+					<div class="footwidgets">
+						<div id="footwidgets-contents-1">
+							<aside id="footer-aboutus"><h3 class="widget-title">ABOUT US</h3></aside>
+						</div>
+						<div id="footwidgets-contents-2">
+							<aside id="footer-twitter"><h3 class="widget-title">MY RECENT TWEETS</h3></aside>
+						</div>
+						<div id="footwidgets-contents-3">
+							<aside id="footer-sociallinks"><h3 class="widget-title">SOCIAL LINKS</h3></aside>
+						</div>
 					</div>
 					<div class="site-info">
+					© 2017 Tatami Powered by WordPress Theme: Tatami by Elmastudio
 					</div>
 				</footer>
 			</sectiion>
 
-			<section class="sidebar-right" role="complementary">
-				<aside id=""></aside>
-				<aside id=""></aside>
-				<aside id=""></aside>
-				<aside id=""></aside>
-				<aside id=""></aside>
+			<section class="sidebar-right"> <!-- 右側のサイドバーについて記述-->
+				<aside id="tatami-sociallinks-2"><h3 class="widget-title">Social Links</h3></aside>
+				<aside id="tatami-recentpost"><h3 class="widget-title">Popular Posts</h3></aside>
+				<aside id="tatami-recentcomment">><h3 class="widget-title">Recent Comments</h3></aside>
+				<aside id="tatami-categories-2"><h3 class="widget-title">Categories</h3></aside>
+				<aside id="tatami-archives-2"><h3 class="widget-title">Archives</h3></aside>
+				<aside id="tatami-facebook-likebox-2"><h3 class="widget-title">Like us on Facebook</h3></aside>
 			</section>
 
 		</div>
