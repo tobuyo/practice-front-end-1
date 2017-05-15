@@ -455,10 +455,6 @@ template {
 
 
 
-body {
-  background: #fff;
-}
-
 .body-header-title {
   width: 100%;
   text-align: center;
@@ -474,10 +470,9 @@ body {
 .body-header-title h2 {
   font-size: 0.875rem;
   font-weight: 400;
-  color: 000000;
-  max-width: 40%;
-  margin-right: 30%;
-  margin-left: 30%;
+  color: #000;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .container {
@@ -498,6 +493,7 @@ body {
 .main-center,
 .sidebar-column {
   display: table-cell;
+  vertical-align: top;
 }
 
 /* 真ん中の要素*/
@@ -554,8 +550,7 @@ body {
 
 .sidebar-column li {
   position: relative;
-  border-bottom: solid 1px;
-  border-color: #D3D3D3;
+  border-bottom: solid 1px #D3D3D3;
   list-style: none;
   height: 40px;
   padding: 0px;
