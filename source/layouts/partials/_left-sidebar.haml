@@ -1,0 +1,32 @@
+.sidebar-column.is-left
+    %nav{class: "main-nav"}
+        %form{method: "get", id: "searchform", action: "http://themes.elmastudio.de/tatami/"}
+            %input{type: "text", class: "field", placeholder: "検索ワードを入力"}
+            %input{type: "submit", class: "submit", value: "Search"}
+        .sidebar-left-menu
+            %ul{id: "sidebar-left-menu-ul"}
+                %li{id: "leftmenu-1"}
+                    %a{href: "http://themes.elmastudio.de/tatami/shortcodes/"}
+                        Shortcodes
+                %li{id: "leftmenu-2"}
+                    %a{href: "http://themes.elmastudio.de/tatami/sample-page/"}
+                        Sample Page 1
+                %li{id: "leftmenu-3"}
+                    %a{href: "http://themes.elmastudio.de/tatami/sample-page-two/"}
+                        Sample Page 2
+                %li{id: "leftmenu-4"}
+                    %a{href: "http://themes.elmastudio.de/tatami/archive/"}
+                        Archives
+                %li{id: "leftmenu-5"}
+                    %a{href: "http://themes.elmastudio.de/tatami/contact/"}
+                        Contact Us
+
+    %aside{id: "tatami-textwidget"}
+        %h3{class: "widget-title"}
+            Text Widget 
+        %div{class: "textwidget"}
+            Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit. 
+
+    %aside{id: "tatami-subscribe"}
+        %h3{class: "widget-title"}
+            SUBSCRIBE VIA EMAIL
