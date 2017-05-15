@@ -572,3 +572,8 @@ template {
 .sidebar-column h3 {
   text-decoration: underline;
 }
+
+.footwidgets {
+  background-color: #000;
+  color: #fff;
+}

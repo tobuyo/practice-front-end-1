@@ -1,15 +1,17 @@
 !!!
-%html
-  %head
-    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
-    %meta{:charset => "utf-8"}/
-    %meta{:content => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}/
-    / Use title if it's in the page YAML frontmatter
-    %title= current_page.data.title || "Middleman"
-    %link{:href => "//fonts.googleapis.com/css?family=Lato:300,400", :rel => "stylesheet", :type => "text/css"}/
-
-    = stylesheet_link_tag :site
-  %body{:class => page_classes}
-    = yield
-
-    = javascript_include_tag "jquery-1.12.4.min", "all"
+%html{lang: "ja"}
+    %head
+        %link{rel: "stylesheet", href: "/stylesheets/style.css"}
+        %meta{charset: "UTF-8"}
+        %title
+            Tatami pakuri
+    
+    %body
+        = partial :"layouts/partials/header.haml"
+        .container
+            = partial :"layouts/partials/left-sidebar.haml"
+            %main.main-center
+                #content
+                    = yield
+                    = partial :"layouts/partials/content-footer.haml"
+            = partial :"layouts/partials/right-sidebar.haml"
