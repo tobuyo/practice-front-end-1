@@ -36,3 +36,21 @@
   }
 
 }
+
+@media screen and (min-width: 960px) {
+ 
+  .sidebar-column {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+}
+
+@media screen and (max-width: 959px) {
+
+  .sidebar-column {
+    margin:30px;
+    width: auto;
+ }
+
+}

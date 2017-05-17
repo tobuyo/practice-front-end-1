@@ -1,26 +1,6 @@
 @charset "utf-8";
 @import "normalize";
 @import "partials/header";
-@import "partials/center-footer";
+@import "partials/container";
+@import "partials/main-center";
 @import "partials/sidebar";
-
-
-@media screen and (min-width: 960px) {
- 
-  .main-center,
-  .sidebar-column {
-    display: table-cell;
-    vertical-align: top;
-  }
-
-}
-
-@media screen and (max-width: 959px) {
-
-  .main-center,
-  .sidebar-column {
-    margin:30px;
-    width: auto;
- }
-
-}

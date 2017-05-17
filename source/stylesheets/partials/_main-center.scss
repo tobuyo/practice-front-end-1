@@ -1,0 +1,74 @@
+.main-center {
+  width: auto;
+
+  article {
+    background-color: #fff;
+    margin-bottom: 30px;
+
+    #reply-form {
+    background-color: #fff;
+    }
+
+  }
+
+  .site-footer {
+    background-color: #151515;
+    color: #fff;
+  }
+
+  header {
+    height: 100px;
+    background: #f7f7f7;
+  }
+
+  footer {
+    border-top: solid 1px #D3D3D3;
+    padding: 30px;
+    overflow: hidden;
+  }
+
+  #nav-center-below {
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #fff;
+  }
+
+  .widget-title {
+    color: #999;
+  }
+
+  .footwidgets {
+    background-color: #000;
+    color: #fff;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+ 
+  .main-center {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  #nav-center-below,
+  .footwidgets {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 959px) {
+
+  .main-center {
+    margin:30px;
+    width: auto;
+   }
+  
+  #nav-center-below,
+  .footwidgets {
+    display: block;
+  }
+
+}
