@@ -1,5 +1,4 @@
-.ly-main-center {
-
+.main-center {
   width: auto;
 
   article {
@@ -35,17 +34,26 @@
     background-color: #fff;
   }
 
+  .widget-title {
+    color: #999;
+  }
+
+  .footwidgets {
+    background-color: #000;
+    color: #fff;
+  }
+
 }
 
 @media screen and (min-width: 960px) {
  
-  .ly-main-center {
+  .main-center {
     display: table-cell;
     vertical-align: top;
   }
 
   #nav-center-below,
-  .is-bottom {
+  .footwidgets {
     display: block;
   }
 
@@ -53,13 +61,13 @@
 
 @media screen and (max-width: 959px) {
 
-  .ly-main-center {
+  .main-center {
     margin:30px;
     width: auto;
    }
   
   #nav-center-below,
-  .is-bottom {
+  .footwidgets {
     display: block;
   }
 
