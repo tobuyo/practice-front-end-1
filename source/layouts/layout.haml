@@ -9,9 +9,9 @@
     
     %body
         = partial :"layouts/partials/header.haml"
-        .ly-container
+        .container
             = partial :"layouts/partials/left-sidebar.haml"
-            %main.ly-main-center
+            %main.main-center
                 #content
                     = yield
                     = partial :"layouts/partials/content-footer.haml"

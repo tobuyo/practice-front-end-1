@@ -1,7 +1,12 @@
-.ly-sidebar-column{
+.sidebar-column{
   background-color: #e7e7e2;
   width: 300px;
   box-sizing: border-box;
+
+  aside {
+    background: #fff;
+    padding: 10px;
+  }
 
   ul {
     background: #f7f7f7;
@@ -34,7 +39,7 @@
 
 @media screen and (min-width: 960px) {
  
-  .ly-sidebar-column {
+  .sidebar-column {
     display: table-cell;
     vertical-align: top;
   }
@@ -43,7 +48,7 @@
 
 @media screen and (max-width: 959px) {
 
-  .ly-sidebar-column {
+  .sidebar-column {
     margin:30px;
     width: auto;
  }
