@@ -1,0 +1,27 @@
+#mod-accordion {
+	dt {
+    	display:block;
+    	width:0 auto;
+    	height:20px;
+    	line-height:20px;
+    	text-align:center;
+    	border:#666 1px solid;
+    	cursor:pointer;
+        background-color: #000;
+        color: #fff;
+
+    }
+
+	dd {
+    	background:#f2f2f2;
+    	width:0 auto;
+    	height:40px;
+    	line-height:40px;
+    	text-align:center;
+    	border:#666 1px solid;
+    	display:none;
+        margin: 0;
+    
+    }
+
+}

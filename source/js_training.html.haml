@@ -1,0 +1,51 @@
+%dl#mod-accordion
+	%dt
+		アコーディオントリガー
+	%dd
+		アコーディオンコンテンツ
+	%dt
+		アコーディオントリガー
+	%dd
+		アコーディオンコンテンツ
+	%dt
+		アコーディオントリガー
+	%dd
+		アコーディオンコンテンツ
+
+
+%ul.tab
+	%li.select
+		タブトリガー1
+	%li
+		タブトリガー2
+	%li
+		タブトリガー3
+
+%ul.content
+	%li
+		タブコンテンツ1
+	%li.hide
+		タブコンテンツ2
+	%li.hide
+		タブコンテンツ3
+
+
+:javascript
+	$(function(){
+		$("#mod-accordion dt").on("click", function() {
+			$(this).next().slideToggle();
+		});
+
+		$('.tab li').click(function() {
+
+			var index = $('.tab li').index(this);
+
+			$('.content li').css('display','none');
+
+			$('.content li').eq(index).css('display','block');
+
+			$('.tab li').removeClass('select');
+
+			$(this).addClass('select')
+		});
+	});

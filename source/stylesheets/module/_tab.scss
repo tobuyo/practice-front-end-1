@@ -1,0 +1,36 @@
+.tab,
+.content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    overflow: hidden;
+    margin: 0;
+    width: 0 auto;
+    color: #fff;
+
+    li {
+        background: #000;
+        float: left;
+        display: table-cell;
+        margin-right: 1px;
+    }
+
+    .select {
+        background: #fff;
+        color: #000;
+    }
+}
+
+.content li {
+    background: #fff;
+    height: 100px;
+
+}
+
+.hide {
+    display: none;
+
+}
