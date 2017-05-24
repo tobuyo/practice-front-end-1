@@ -35,7 +35,7 @@
     background-color: #fff;
   }
 
-  .is-bottom {
+  &.is-bottom {
   background-color: #000;
   color: #fff;
 
@@ -51,7 +51,7 @@
   }
 
   #nav-center-below,
-  .is-bottom {
+  &.is-bottom {
     display: block;
   }
 
@@ -65,7 +65,7 @@
    }
   
   #nav-center-below,
-  .is-bottom {
+  &.is-bottom {
     display: block;
   }
 
