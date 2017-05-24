@@ -36,16 +36,16 @@
 			$(this).next().slideToggle();
 		});
 
-		$('.tab li').click(function() {
+		$(".tab li").click(function() {
 
-			var index = $('.tab li').index(this);
+			var index = $(".tab li").index(this);
 
-			$('.content li').css('display','none');
+			$(".content li").css("display","none");
 
-			$('.content li').eq(index).css('display','block');
+			$(".content li").eq(index).css("display","block");
 
-			$('.tab li').removeClass('select');
+			$(".tab li").removeClass("select");
 
-			$(this).addClass('select')
+			$(this).addClass("select")
 		});
 	});
