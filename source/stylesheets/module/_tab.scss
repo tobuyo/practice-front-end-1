@@ -28,9 +28,7 @@
     background: #fff;
     height: 100px;
 
-}
-
-.hide {
-    display: none;
-
+    &.is-closed {
+        display: none;
+    }
 }
