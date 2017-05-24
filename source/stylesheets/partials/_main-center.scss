@@ -48,12 +48,12 @@
   .ly-main-center {
     display: table-cell;
     vertical-align: top;
+    &.is-bottom,
+    #nav-center-below {
+      display: block;
+    }
   }
-
-  #nav-center-below,
-  &.is-bottom {
-    display: block;
-  }
+  
 
 }
 
@@ -62,11 +62,11 @@
   .ly-main-center {
     margin:30px;
     width: auto;
+    &.is-bottom,
+    #nav-center-below{
+    display: block;
+    }
    }
   
-  #nav-center-below,
-  &.is-bottom {
-    display: block;
-  }
 
 }
