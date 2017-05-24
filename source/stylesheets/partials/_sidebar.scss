@@ -1,12 +1,7 @@
-.sidebar-column{
+.ly-sidebar-column{
   background-color: #e7e7e2;
   width: 300px;
   box-sizing: border-box;
-
-  aside {
-    background: #fff;
-    padding: 10px;
-  }
 
   ul {
     background: #f7f7f7;
@@ -35,11 +30,17 @@
     text-decoration: underline;
   }
 
+  &.is-both-side{
+    background: #fff;
+    padding: 10px;
+
+  }
+
 }
 
 @media screen and (min-width: 960px) {
  
-  .sidebar-column {
+  .ly-sidebar-column {
     display: table-cell;
     vertical-align: top;
   }
@@ -48,7 +49,7 @@
 
 @media screen and (max-width: 959px) {
 
-  .sidebar-column {
+  .ly-sidebar-column {
     margin:30px;
     width: auto;
  }
